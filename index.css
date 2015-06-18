@@ -1,0 +1,170 @@
+html{
+	background: rgba(113,206,239,1);
+background: -moz-linear-gradient(left, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 16%, rgba(183,222,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(113,206,239,1)), color-stop(16%, rgba(113,206,239,1)), color-stop(100%, rgba(183,222,237,1)));
+background: -webkit-linear-gradient(left, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 16%, rgba(183,222,237,1) 100%);
+background: -o-linear-gradient(left, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 16%, rgba(183,222,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 16%, rgba(183,222,237,1) 100%);
+background: linear-gradient(to right, rgba(113,206,239,1) 0%, rgba(113,206,239,1) 16%, rgba(183,222,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71ceef', endColorstr='#b7deed', GradientType=1 );
+
+}
+
+#nav{
+	margin-top: 1em;
+	width:100%;
+	display:inline-block;
+	text-align: center;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 3.5em;
+	color:#5C5C61;
+}
+
+.StudentName{
+	display:inline-block;
+
+}
+
+input{
+	width:12em;
+	height:2em;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color:#7D7D81;
+}
+
+#StudentNameLeft{
+	margin-right:.5em;
+}
+
+#StudentNameRight{
+	margin-left:.5em;
+}
+
+.float{
+	display:inline-block;
+}
+
+#left{
+	width:35%;
+	height:18em;
+	border: .25em solid black;
+	margin:2em 6.5em;
+}
+
+#right{
+	width:35%;
+	height:30.5em;
+	border: .25em solid black;
+	float:right;
+	margin-top: 2em;
+	margin-right:5em;
+}
+
+#footer{
+	border: .25em solid black;
+	width:50%;
+	height:10em;
+	margin-left: 4em;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 2.5em;
+	color:#5C5C61;
+	text-align: center;
+	margin-top: -.00001em;
+}
+
+#name{
+	margin-bottom: 1em;
+	margin-left: 3em;
+}
+
+#score{
+	margin-bottom: 1em;
+	margin-left: 3.15em;
+}
+
+#button{
+	float:right;
+	margin-right:2em;
+}
+
+label{
+	font-size: 1.75em;
+	font-weight: bold;
+	color:#5C5C61;
+}
+
+button{
+	font-weight: bold;
+	font-size: 1.1em;
+	width:4em;
+	height:3em;
+	border:2.5px solid #F2F2F2;
+	border-radius: .35em;
+	background-color: #C8C8C8;
+	box-shadow: 2px 2px;
+}
+
+ul{
+	list-style: none;
+	margin-top: -2em;
+}
+
+ul li:before{
+	content: ".";
+	font-size:300%;
+	margin-right: .20em;
+	margin-left: -.1em;
+	color:#5C5C61;
+}
+
+li div{
+	display:inline-block;
+}
+
+strong{
+	margin-right: .5em;
+	font-weight: bold;
+	font-size: 1.5em;
+	color:#5C5C61;
+}
+
+.name{
+	margin-left: 1em;
+}
+
+.score{
+	margin-left: 7em;
+}
+
+span{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#average{
+	width:27%;
+	float:left;
+	margin-left: 5em;
+}
+
+#grade{
+	width:27%;
+	float:left;
+}
+
+#passing{
+	width:40%;
+	float:left;
+}
+
+
+
+
